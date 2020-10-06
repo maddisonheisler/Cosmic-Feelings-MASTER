@@ -1,0 +1,691 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v4.1.1">
+    <title>Album example · Bootstrap</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/album/">
+
+    <!-- Bootstrap core CSS -->
+<link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="album.css" rel="stylesheet">
+  </head>
+  <body>
+
+    <div class="container" id="logo"><img src="photos/logo.png"></div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light rounded">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample10" aria-controls="navbarsExample10" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample10">
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown10" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Horoscope</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown10">
+              <a class="dropdown-item" href="#">Daily</a>
+              <a class="dropdown-item" href="#">Weekly</a>
+              <a class="dropdown-item" href="#">Monthly</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Compatibility</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Birth Chart</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Moon Tracker</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Learning Resources</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+<main role="main">
+
+
+  <div class="album py-5 bg-pinky">
+    <div class="container">
+
+      <h1>MONTHLY HOROSCOPE</h1>
+      <h3>CHOOSE YOUR SIGN</h3>
+      <div class="row">
+        <div class="col-md-3">
+          <div class="card mb-3">
+            <a href="#aquarius-horoscope"><img src="photos/acq.png"></a>
+            <div class="card-body">
+              <h3>Aquarius</h3>
+              <p class="card-text">Jan 20 - Feb 18</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="card mb-3">
+            <a href="#pisces-horoscope"><img src="photos/pis.png"></a>
+            <div class="card-body">
+              <h3>Pisces</h3>
+              <p class="card-text">Feb 19 - Mar 20</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="card mb-3">
+            <a href="#aries-horoscope"><img src="photos/ari.png"></a>
+            <div class="card-body">
+              <h3>Aries</h3>
+              <p class="card-text">MAR 21 - APR 19</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="card mb-3">
+            <a href="#taurus-horoscope"><img src="photos/tau.png"></a>
+            <div class="card-body">
+              <h3>TAURUS</h3>
+              <p class="card-text">APR 20 - MAY 20</p>
+            </div>
+          </div>
+        </div>        
+      </div>
+
+      <div class="row">
+        <div class="col-md-3">
+          <div class="card mb-3">
+            <a href="#gemini-horoscope"><img src="photos/gem.png"></a>
+            <div class="card-body">
+              <h3>GEMINI</h3>
+              <p class="card-text">MAY 21 - JUN 20</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="card mb-3">
+            <a href="#cancer-horoscope"><img src="photos/can.png"></a>
+            <div class="card-body">
+              <h3>CANCER</h3>
+              <p class="card-text">JUN 21 - JUL 22</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="card mb-3">
+            <a href="#leo-horoscope"><img src="photos/leo.png"></a>
+            <div class="card-body">
+              <h3>LEO</h3>
+              <p class="card-text">JUL 23 - AUG 22</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="card mb-3">
+            <a href="#virgo-horoscope"><img src="photos/vir.png"></a>
+            <div class="card-body">
+              <h3>VIRGO</h3>
+              <p class="card-text">AUG 23 - SEP 22</p>
+            </div>
+          </div>
+        </div>        
+      </div>
+
+      <div class="row">
+        <div class="col-md-3">
+          <div class="card mb-3">
+            <a href="#libra-horoscope"><img src="photos/lib.png"></a>
+            <div class="card-body">
+              <h3>LIBRA</h3>
+              <p class="card-text">SEPT 23 - OCT 22</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="card mb-3">
+            <a href="#scorpio-horoscope"><img src="photos/sco.png"></a>
+            <div class="card-body">
+              <h3>SCORPIO</h3>
+              <p class="card-text">OCT 23 - NOV 21</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="card mb-3">
+            <a href="#sagittarius-horoscope"><img src="photos/sag.png"></a>
+            <div class="card-body">
+              <h3>SAGITTARIUS</h3>
+              <p class="card-text">NOV 22 - DEC 21</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="card mb-3">
+            <a href="#capricorn-horoscope"><img src="photos/cap.png"></a>
+            <div class="card-body">
+              <h3>CAPRICORN</h3>
+              <p class="card-text">DEC 22 - JAN 19</p>
+            </div>
+          </div>
+        </div>        
+      </div>
+
+    </div>
+  </div>
+
+  <section>
+    <div class="blog-post container" id="aquarius-horoscope">
+      <h2 class="blog-post-title">Aquarius</h2>
+      <p class="blog-post-meta">Jan 20 - Feb 18</p>
+  
+      <p>This month brings the chance of new opportunities that can boost your income, enhance your lifestyle, and give you plenty more options to play with.<br><br>
+
+        With a full moon across your communication axis on October 1, this is a good time to discuss something that may have been upsetting you for some while. Although it could involve a volatile blend of energies, tact and diplomacy can go a long way toward resolving it and healing any disconnect.<br><br>
+        
+        The sun continues its journey through your sector of far horizons until the twenty-second, and during this time your focus may be on expanding and exploring. Anything that broadens your horizons could attract you now because your focus is on being adventurous and taking a leap of faith.<br><br>
+        
+        To assist you with your plans, there is a delightful new moon in the same sector on October 16. This can be perfect for starting a long journey, beginning a course of study, or committing to an opportunity that opens new doors for you.<br><br>
+        
+        The sun glides into intense Scorpio and your sector of goals and ambitions on the twenty-second and will remain here for four weeks. During the coming weeks you could be very much focused on accomplishing something important. It might be the next step on your career path or kick-starting a new project that could have a positive outcome. Remember, though, that you’re at your most visible now.<br><br>
+        
+        Your travel sector is back in focus from October 27 as Mercury in its retrograde phase moves back in and lovely Venus enters this zone. This can be a time of positive encounters and reunions that leave you feeling very contented.<br><br>
+        
+        Take it easy around the full moon on the thirty-first because some unexpected drama could disrupt your plans. You might need to scramble to get back on track.</p>
+
+      <h4>READ MORE for Aquarius</h4>
+        <ul>
+          <li><a href="#">Personality</a></li>
+          <li><a href="#">Sign</a></li>
+          <li><a href="#">Moon</a></li>
+          <li><a href="#">Strengths</a></li>
+          <li><a href="#">Weekness</a></li>
+          <li><a href="#">Numerology</a></li>
+          <li><a href="#">Career</a></li>
+          <li><a href="#">Finance</a></li>
+        </ul>
+
+    </div>
+  </section>
+
+  <section>
+    <div class="blog-post container" id="pisces-horoscope">
+      <h2 class="blog-post-title">Pisces</h2>
+      <p class="blog-post-meta">Feb 19 - Mar 20</p>
+      <p>There’s no waiting for the action to start this month, because a fiery full moon in Aries sets the pace on October 1. This full moon occurs across your financial axis, and it could find you eager to resolve a matter that may have been a sore point for some time. You might be angry, and rightfully so, but your best bet is to sort this out tactfully so you can negotiate the best solution.<br><br>
+
+        The sun in Libra and your sector of shared assets, business, and committed bonds until the twenty-second offers a time of regeneration and transformation if you’re prepared to dive deep and sort out those issues that are blocking your path to financial and emotional happiness.<br><br>
+        
+        The fly in the ointment is that lively Mercury turns retrograde this month on October 13. It remains so until November 3, which could delay plans and even force you to backtrack. It would be best not to make any costly arrangements until Mercury turns direct again.<br><br>
+        
+        However, with a new moon in your finance and business zone on the sixteenth, you might be in the mood to get moving on a plan. If so, focus your energy on research and finding out more about your options before you jump into anything that might later prove to be a mistake.<br><br>
+        
+        The sun’s move into Scorpio and your travel and discovery zone on October 22 is the time to venture out of your comfort zone. You might feel compelled to explore new places, learn something, or grab an opportunity that could see you going far.<br><br>
+        
+        If you thought you’d finished with more intense matters, think again, because convivial Mercury backs into Libra on October 27, the same day sweet Venus moves in. It’s time revisit an issue or resolve a matter that has lingered on for too long.</p>
+
+      <h4>READ MORE for PISCES</h4>
+      <ul>
+        <li><a href="#">Personality</a></li>
+        <li><a href="#">Sign</a></li>
+        <li><a href="#">Moon</a></li>
+        <li><a href="#">Strengths</a></li>
+        <li><a href="#">Weekness</a></li>
+        <li><a href="#">Numerology</a></li>
+        <li><a href="#">Career</a></li>
+        <li><a href="#">Finance</a></li>
+      </ul>
+    </div>
+  </section>
+
+
+  <section>
+    <div class="blog-post container" id="aries-horoscope">
+      <h2 class="blog-post-title">Aries</h2>
+      <p class="blog-post-meta">Mar 21 - Apr 19</p>
+      <p>The sun in Libra until October 22 highlights your relationship zone, encouraging greater interaction and communication.<br><br>
+
+        However, the month starts on October 1 with a full moon in your sign that ties in with celestial body Chiron. Feelings may bubble up to the surface, and there could be a fiery quality to them. But if someone has upset you, you might be ready to speak out and clear the air. Be honest about how you feel and this could mark the start of a new phase.<br><br>
+        
+        Lovely Venus moves into Virgo and your lifestyle zone on the second, enhancing your relationship with co-workers. Romance may strike while you’re going about your everyday life.<br><br>
+        
+        Chatty Mercury turns retrograde in the sign of Scorpio on October 13 and remains so for around three weeks. This could see some secrets coming to light even if you had hoped to keep them hidden.<br><br>
+        
+        If you want to initiate a date, commence a partnership, or take a key bond further, the Libra new moon on the sixteenth can be helpful for making your next move. See it as something like a gear change.<br><br>
+        
+        As the radiant sun enters intense Scorpio on October 22 for a four-week stay, a more emotional energy could cause you to dwell on and perhaps feel ready to tackle those key issues in life. This can include shared finances, business, deep-seated experiences, and intimate bonds. This is the time to let go of anything that no longer serves your best interests.<br><br>
+        
+        On the twenty-seventh, messenger Mercury rewinds back into Libra while sweet Venus moves into the sign on her forward journey. Once again, interactions are important, but you’ll get a chance to negotiate, resolve difficulties, and find a way to meet others halfway.<br><br>
+        
+        Finally, on October 31, a dynamic full moon in Taurus, the second in the month (a blue moon), can be a call to avoid emotional spending.</p>
+
+      <h4>READ MORE for ARIES</h4>
+      <ul>
+        <li><a href="#">Personality</a></li>
+        <li><a href="#">Sign</a></li>
+        <li><a href="#">Moon</a></li>
+        <li><a href="#">Strengths</a></li>
+        <li><a href="#">Weekness</a></li>
+        <li><a href="#">Numerology</a></li>
+        <li><a href="#">Career</a></li>
+        <li><a href="#">Finance</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <div class="blog-post container" id="taurus-horoscope">
+      <h2 class="blog-post-title">Taurus</h2>
+      <p class="blog-post-meta">Apr 20 - May 20</p>
+      <p>The full moon in your spiritual zone on October 1 gets the month off to an emotional start. It aligns with healing Chiron, and this can be a call to resolve those difficulties that may be getting in the way of progress. What aspect of your life needs closure? This is the time to seek it out.<br><br>
+
+        With the sun in Libra and your lifestyle zone until the twenty-second, the coming weeks can be an opportunity to find balance in your life, especially as it relates to your well-being and happiness. It’s a chance to reorganize your routines and ask yourself those searching questions about what you truly want. By making the time to pursue the desires of your heart, you may become happier.<br><br>
+        
+        Lovely Venus, your ruler, moves into Virgo and your romance zone the next day, encouraging you to dive in and do those things you love. If you have a favorite hobby or feelings for someone special, go all out to discover more and have fun.<br><br>
+        
+        The new moon in your lifestyle zone on the sixteenth can be helpful for kick-starting new habits. If you’re eager to lose weight, give up a bad habit, or do more of a favorite activity, now is the time.<br><br>
+        
+        Relationships come the fore as the sun moves into Scorpio for a four-week stay on October 22. These weeks could find you eager to negotiate and collaborate. It’s a chance to take stock and improve on what you have. You might feel more sociable during these weeks, too.<br><br>
+        
+        You aren’t finished with lifestyle matters yet because Mercury retrogrades back into Libra on the same day Venus moves in. Relationships with co-workers may be upbeat, but watch out for mistakes and delays.<br><br>
+        
+        Finally, the second full moon of the month, a blue moon, occurs in your sign and aligns with electric Uranus on the thirty-first, so get ready for a surprise.</p>
+
+      <h4>READ MORE for TAURUS</h4>
+      <ul>
+        <li><a href="#">Personality</a></li>
+        <li><a href="#">Sign</a></li>
+        <li><a href="#">Moon</a></li>
+        <li><a href="#">Strengths</a></li>
+        <li><a href="#">Weekness</a></li>
+        <li><a href="#">Numerology</a></li>
+        <li><a href="#">Career</a></li>
+        <li><a href="#">Finance</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <div class="blog-post container" id="gemini-horoscope">
+      <h2 class="blog-post-title">Gemini</h2>
+      <p class="blog-post-meta">May 21 - Jun 20</p>
+      <p>The full moon on October 1 gets the month off to a lively start. As this lunar phase ties in with healer Chiron, it could be an opportunity to help someone come out of their shell, something they might greatly appreciate.<br><br>
+
+        The focus on your leisure zone continues over this month, encouraging you to indulge in your favorite hobbies, learn new skills, enjoy competitive sports, and find out what you love to do most. Engaging with fun activities in this way can help you recharge and feel good.<br><br>
+        
+        Lively Mercury, your ruler, turns retrograde on the thirteenth and remains so for around three weeks, which could disrupt plans or coincide with delays. Gadgets can break down just when you need them, so it helps to be flexible and well prepared.<br><br>
+        
+        There’s a new moon in Libra on October 16, which can be one of the better times to promote your work, take a romance to the next level, or dive in and try something different. If you’re ready to date, make a point of connecting with those who share your interests.<br><br>
+        
+        The sun glides into Scorpio and your work and lifestyle sector on the twenty-second. This can be a chance to consider your progress and adjust your routines and habits so you can accomplish your goals. The coming four weeks might also put the focus on your well-being and ways in which you can enhance your fitness.<br><br>
+        
+        October 27 is an interesting day because chatty Mercury moves backward into Libra and your leisure zone as sweet Venus moves in. There could be a reunion with an old friend or old flame, or you might be ready for more romance in general.<br><br>
+        
+        Finally, the full moon on the thirty-first, the second of the month, could coincide with a major insight that turns out to be a game changer.</p>
+
+      <h4>READ MORE for GEMINI</h4>
+      <ul>
+        <li><a href="#">Personality</a></li>
+        <li><a href="#">Sign</a></li>
+        <li><a href="#">Moon</a></li>
+        <li><a href="#">Strengths</a></li>
+        <li><a href="#">Weekness</a></li>
+        <li><a href="#">Numerology</a></li>
+        <li><a href="#">Career</a></li>
+        <li><a href="#">Finance</a></li>
+      </ul>
+    </div>
+  </section>
+
+
+  <section>
+    <div class="blog-post container" id="cancer-horoscope">
+      <h2 class="blog-post-title">Cancer</h2>
+      <p class="blog-post-meta">Jun 21 - Jul 22</p>
+      <p>There’s a full moon in Aries on October 1, and you could find yourself in the limelight, so think before you vent if you feel a surge of emotion about something. Sharing your feelings can help others to know they aren’t alone, but there’s a time and a place.<br><br>
+
+        If you need to negotiate or discuss key issues, the move of lovely Venus into your sector of communication on the second can assist with such matters. And if you’re having difficulties, she can help you find a smoother path ahead through tactful discussion.<br><br>
+        
+        Messenger Mercury turns retrograde in your romance and leisure sector on October 13 and remains so for around three weeks, making this a good time for a reunion with friends, an ex, or perhaps an old flame. A key bond could be reactivated as a result.<br><br>
+        
+        With a new moon in your home zone on the sixteenth, this is the ideal time to start a DIY project or perhaps get your place shipshape. What have you been putting off? Get to it now and it could be the start of a major decluttering session or painting and decorating extravaganza.<br><br>
+        
+        Leisure and pleasure are in the cards as the sun glides into Scorpio on October 22. The coming month could find you eager to indulge in your favorite hobbies, relax, enjoy many passionate romantic moments, showcase your work, or gather inspiration from other artists.<br><br>
+        
+        You aren’t finished with family matters yet, though, because on the twenty-seventh, brainy retrograde Mercury rewinds into Libra through the back door while sweet Venus enters at the front. It’s time to come to grips with any issues hanging over you, but it’s also a great opportunity to beautify your home and pamper yourself.<br><br>
+        
+        Finally, there’s a second full moon this month across your social axis on October 31, so a sparkling encounter could shake you up.</p>
+
+      <h4>READ MORE for CANCER</h4>
+      <ul>
+        <li><a href="#">Personality</a></li>
+        <li><a href="#">Sign</a></li>
+        <li><a href="#">Moon</a></li>
+        <li><a href="#">Strengths</a></li>
+        <li><a href="#">Weekness</a></li>
+        <li><a href="#">Numerology</a></li>
+        <li><a href="#">Career</a></li>
+        <li><a href="#">Finance</a></li>
+      </ul>
+    </div>
+  </section>
+
+
+  <section>
+    <div class="blog-post container" id="leo-horoscope">
+      <h2 class="blog-post-title">Leo</h2>
+      <p class="blog-post-meta">Jul 23 - Aug 22</p>
+      <p>Get ready for a potent full moon across your communication axis as the month gets underway. This volatile lunar phase on October 1 links with healer Chiron, which hints at the resolution of an emotional issue that may have been draining you. Easy does it, though. If you need someone to guide you through this, ask for help.<br><br>
+
+        The sun in your sector of communication until the twenty-second can make for a busy time that could see you interacting, moving around from place to place, and generally keeping on your toes. It’s not a time of major adventures but of small discoveries closer to home, which can be very exciting.<br><br>
+        
+        There could be some conflict in the first two weeks, though, with fiery Mars in its retrograde phase angling toward potent Pluto. This could inspire you to explore new opportunities even while keeping up with your current workload. The urge to try new things could be strong, and it will be important to find answers.<br><br>
+        
+        Lively Mercury is retrograde from October 13 to November 3, which could slow down the pace and cause some delays. Be prepared!<br><br>
+        
+        The new moon in Libra on the sixteenth is perfect for kick-starting a new project, collaborating with someone, and generally initiating ways to move your life forward.<br><br>
+        
+        On October 22, as the sun eases into Scorpio and your home zone for a stay of four weeks, this can be an opportunity to take a step back and get a fresh perspective on a key area of your life. Do you need a chance to refuel and enjoy more than your usual pampering? If so, this is the time to go for it.<br><br>
+        
+        Communication continues to be important on the twenty-seventh as chatty Mercury reenters your home zone and lovely Venus moves in as well. This is great for discussions, negotiations, reviewing and revisiting plans, and making decisions.</p>
+
+      <h4>READ MORE for LEO</h4>
+      <ul>
+        <li><a href="#">Personality</a></li>
+        <li><a href="#">Sign</a></li>
+        <li><a href="#">Moon</a></li>
+        <li><a href="#">Strengths</a></li>
+        <li><a href="#">Weekness</a></li>
+        <li><a href="#">Numerology</a></li>
+        <li><a href="#">Career</a></li>
+        <li><a href="#">Finance</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <div class="blog-post container" id="virgo-horoscope">
+      <h2 class="blog-post-title">Virgo</h2>
+      <p class="blog-post-meta">Aug 23 - Sep 22</p>
+      <p>A powerful full moon across your financial axis on the first can be an opportunity to resolve a matter that has been lingering for some time. As the moon aligns with healer Chiron in your sector of shared assets, it might be time to address a matter that has been bothering you. You may not resolve it completely, but this can be a start.<br><br>
+
+        Sultry Venus moves into your sign the next day and remains here until October 27, which can bring romantic and social activities to the fore. Are you eager to change your image? You might give it some thought before you make a move.<br><br>
+        
+        Messenger Mercury, your ruler, turns retrograde in your sector of communication on October 13 and remains so until November 3, moving into Libra on the same day as Venus. Take extra care with administrative tasks, important documents, and files to avoid delays at crucial moments.<br><br>
+        
+        If you’re ready to sort out your finances, the new moon on the sixteenth can be one of the better times to start a savings plan or create a workable budget.<br><br>
+        
+        Conversations could intensify as the sun glides into your sector of talk and thought on October 22. If you have something you need to discuss, now is the time to gently broach the subject. The coming four weeks can also be a good time to network and make new connections.<br><br>
+        
+        Lively Mercury’s move back into your money zone on the twenty-seventh can bring delays, so go easy if you’re purchasing any big-ticket items.<br><br>
+        
+        The move of sweet Venus into the same sector on the same day could find you more eager to splurge on small luxuries and perhaps invest in yourself by purchasing new clothes or getting a makeover. You might be eager to surround yourself with beautiful things that can improve your environment and lift your spirits.<br><br>
+        
+        This month’s second full moon, a blue moon, occurs across your communication axis and ties in with radical Uranus on October 31, which suggests that you might want to chase a golden opportunity.</p>
+
+      <h4>READ MORE for VIRGO</h4>
+      <ul>
+        <li><a href="#">Personality</a></li>
+        <li><a href="#">Sign</a></li>
+        <li><a href="#">Moon</a></li>
+        <li><a href="#">Strengths</a></li>
+        <li><a href="#">Weekness</a></li>
+        <li><a href="#">Numerology</a></li>
+        <li><a href="#">Career</a></li>
+        <li><a href="#">Finance</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <div class="blog-post container" id="libra-horoscope">
+      <h2 class="blog-post-title">Libra</h2>
+      <p class="blog-post-meta">Sep 23 - Oct 22</p>
+      <p>The month gets off to a lively start with a dynamic full moon in Aries and your relationship zone on October 1. The moon aligns with healing Chiron in Aries, so you could feel an emotional surge to resolve an issue that has been a drain on a relationship and you.<br><br>
+
+        The sun in your sign until the twenty-second encourages you to express your talents and abilities and indulge in your interests. The coming weeks are very much about connecting with whatever recharges and fulfills you.<br><br>
+        
+        There may be tension with certain family members, and these might also need to be ironed out. Be diplomatic but firm where necessary.<br><br>
+        
+        Dealmaker Mercury turns retrograde in your money zone on October 13, so be on your guard and keep your credit cards and wallet safe. If you’re thinking of making a major purchase, check out the details and keep the receipts and paperwork just in case.<br><br>
+        
+        The new moon in your sign on the sixteenth can be good for you and excellent for kick-starting plans that have been on the back burner for some time. Whether you want to embrace a new habit or start a relationship, this is the time to go ahead.<br><br>
+        
+        Finances become more of a focus on October 22 as the sun moves into your money zone for a stay of four weeks. This can be an opportunity to reassess your financial priorities and values, dream up ways to increase your income, and pare back expenses where necessary.<br><br>
+        
+        Your sign is emphasized again as lively Mercury reenters Libra on the twenty-seventh, and sweet Venus, your guide planet, moves in on the same day. You will be in your element. You’re also mindful that there are people you haven’t seen in a while, making this a great time to reconnect.<br><br>
+        
+        Finally, something might seem irresistible during the full moon on October 31, but try to avoid making any impulsive buys.</p>
+
+      <h4>READ MORE for LIBRA</h4>
+      <ul>
+        <li><a href="#">Personality</a></li>
+        <li><a href="#">Sign</a></li>
+        <li><a href="#">Moon</a></li>
+        <li><a href="#">Strengths</a></li>
+        <li><a href="#">Weekness</a></li>
+        <li><a href="#">Numerology</a></li>
+        <li><a href="#">Career</a></li>
+        <li><a href="#">Finance</a></li>
+      </ul>
+    </div>
+  </section>
+
+
+  <section>
+    <div class="blog-post container" id="scorpio-horoscope">
+      <h2 class="blog-post-title">Scorpio</h2>
+      <p class="blog-post-meta">Oct 23 - Nov 21</p>
+      <p>While you might be busy, the sun in your spiritual zone encourages you to dive deep and learn more about what makes you tick. It’s a chance to pull back from your usual mindset and discover the hidden treasures within.<br><br>
+
+        The full moon on October 1 aligns with celestial body Chiron in the sign of Aries, suggesting a volatile start to the month. If you are feeling overwhelmed by the amount of work you have to do, this lunar phase could bring this situation to a head so you’re ready to do something about it.<br><br>
+        
+        Lively Mercury turns retrograde in your sign on the thirteenth and remains so for around three weeks, which could slow down the pace of progress. You might need to take each day as it comes and give yourself time to complete any projects. Know that unexpected events could cause delays.<br><br>
+        
+        There’s a new moon in your spiritual zone on October 16, and this is a great opportunity to take up meditation or another practice that can help you feel more relaxed. Anything that can help ease the stresses and strains of daily life has to be worth trying.<br><br>
+        
+        The sun enters your sign on the twenty-second, and the coming four weeks could find you feeling more vital and confident. This is a great time to kick-start those projects you’ve been dreaming up in previous weeks.<br><br>
+        
+        Your spiritual sector comes into focus as lively Mercury moves back in on October 27, with Venus also entering the sign on the same day. It’s a chance to find closure on uncomfortable issues and enhance your relationship with yourself.<br><br>
+        
+        Finally, with a second full moon of the month on the thirtieth, this one across your relationship axis, an encounter could be electric, and you may sense an almost immediate attraction. Avoid making any impulsive moves, however.</p>
+
+      <h4>READ MORE for SCORPIO</h4>
+      <ul>
+        <li><a href="#">Personality</a></li>
+        <li><a href="#">Sign</a></li>
+        <li><a href="#">Moon</a></li>
+        <li><a href="#">Strengths</a></li>
+        <li><a href="#">Weekness</a></li>
+        <li><a href="#">Numerology</a></li>
+        <li><a href="#">Career</a></li>
+        <li><a href="#">Finance</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <div class="blog-post container" id="sagittarius-horoscope">
+      <h2 class="blog-post-title">Sagittarius</h2>
+      <p class="blog-post-meta">Nov 22 - Dec 21</p>
+      <p>There’s a full moon across your social axis on October 1, so feelings may be running high, and with celestial Chiron involved in the mix, you could be a touch emotional. If someone has upset you, things could come to a head, but this might be an opportunity to clear the air.<br><br>
+
+        The sun in your social zone until the twenty-second encourages you to go out and about, move in new circles, and connect with others on your wavelength. This is a chance to seek out kindred spirits and make some lifelong friendships.<br><br>
+        
+        You might also want to invest in your home with a lovely Jupiter-Neptune tie  on October 12 encouraging you to make your abode a place of peace where you can retreat from the world and unwind.<br><br>
+        
+        With messenger Mercury rewinding in a private zone on the thirteenth, the coming three weeks could find you eager to tie up loose ends and resolve any issues that may be holding you back.<br><br>
+        
+        In contrast, a lively new moon in your social sector on October 16 can be perfect for kick-starting a team project, joining a group, or enhancing your social media presence.<br><br>
+        
+        On the twenty-second, the focus shifts as the sun enters a more reclusive zone for a four-week stay. This is a chance for closure and completion, so it’s a good time to tie up those loose ends. Whatever is hanging over you, now is the time to get it sorted out.<br><br>
+        
+        Your social life is back in focus when meandering Mercury in its retrograde phase moves back into Libra and sweet Venus moves in on October 27. You might be eager to make new friends, and reunions are also a possibility. There is a chance that an old flame or ex could show up, too.<br><br>
+        
+        Finally, on the thirtieth, the full moon across your lifestyle axis aligns with energizing Uranus, which could coincide with some exciting new developments.</p>
+
+      <h4>READ MORE for SAGITTARIUS</h4>
+      <ul>
+        <li><a href="#">Personality</a></li>
+        <li><a href="#">Sign</a></li>
+        <li><a href="#">Moon</a></li>
+        <li><a href="#">Strengths</a></li>
+        <li><a href="#">Weekness</a></li>
+        <li><a href="#">Numerology</a></li>
+        <li><a href="#">Career</a></li>
+        <li><a href="#">Finance</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <div class="blog-post container" id="capricorn-horoscope">
+      <h2 class="blog-post-title">Capricorn</h2>
+      <p class="blog-post-meta">Dec 22 - Jan 19</p>
+      <p>This is the month to make an impression and find ways to promote yourself. The sun in Libra and the topmost sector of your chart brings a chance to let your light shine. And it is perhaps the only time in the year your attention is drawn to your place and standing in the world and your reputation.<br><br>
+
+        However, with a powerful full moon in your home zone on October 1, the cosmic message is to seek a better work/life balance. If you’ve been working flat out, your family life may be suffering, and this is the time to find a positive solution to this dilemma.<br><br>
+        
+        In addition, with fiery Mars continuing to rewind in your home zone, it’s a chance to consider how to best use your energy for greater productivity as well as greater happiness.<br><br>
+        
+        Dealmaker Mercury turns retrograde in Scorpio on the thirteenth, which could coincide with delays and mixed messages. Give yourself plenty of leeway when planning appointments or other arrangements, especially the important ones, and you won’t miss out.<br><br>
+        
+        The new moon in Libra on October 16 brings an opportunity for a fresh start, whether this relates to a new career opening, job interview, business deal, or contract. If you’re ready to step up to the plate and take your rise to the top more seriously, this is a good time to set your intentions.<br><br>
+        
+        Your social life may be enhanced by the sun’s presence in Scorpio on the twenty-second, when your desire to make contact with others is at a peak. You may also be interested in taking a life goal further if you would benefit from doing so.<br><br>
+        
+        Finally, a powerful full moon across your social axis on October 31 could coincide with an instant attraction. However, avoid doing anything that you might come to regret later.</p>
+
+      <h4>READ MORE for CAPRICORN</h4>
+      <ul class="read-more">
+        <li><a href="#">Personality</a></li>
+        <li><a href="#">Sign</a></li>
+        <li><a href="#">Moon</a></li>
+        <li><a href="#">Strengths</a></li>
+        <li><a href="#">Weekness</a></li>
+        <li><a href="#">Numerology</a></li>
+        <li><a href="#">Career</a></li>
+        <li><a href="#">Finance</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <div class="blog-post container" id="astrologers">
+      <h2 class="blog-post-title">Meet Our Astrologers</h2>
+      <p>You have only just scratched the surface on a new goal, so don't think for a moment that you can take a break now. There is much more work to be done, and you need to keep working at it! By pushing forward harder, you'll make amazing progress, and the feeling of accomplishment will give you the energy you need to keep going. All of this positive energy will feed new ideas and encourage things to keep going in the right direction.
+      </p>
+  <div class="row astrologers">
+    <div class="col-lg-4">
+      <img src="photos/portrait-1.jpg">
+      <h4 id="ast-name">Layla</h4>
+      <p class="blog-post-meta">Career Astrologer</p>
+    </div>
+    <div class="col-lg-4">
+      <img src="photos/portrait-2.jpg">
+      <h4 id="ast-name">Jenna</h4>
+      <p class="blog-post-meta">Astrology</p>
+    </div><!-- /.col-lg-4 -->
+    <div class="col-lg-4">
+      <img src="photos/portrait-3.jpg">
+      <h4 id="ast-name">Maddison</h4>
+      <p class="blog-post-meta">Yearly Astrology</p>
+    </div><!-- /.col-lg-4 -->
+  </div><!-- /.row -->
+</div>
+</section>
+
+
+<section class="app">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3">
+        <h3>GET A TAROT READING</h3>
+        <p>Get your free daily tarot reading. Get advice about your love, mood, and career.</p>
+      </div>
+
+      <div class="col-md-3">
+        <img src="photos/app.png">
+      </div>
+
+      <div class="col-md-6">
+        <h3>GET A TAROT READING</h3>
+        <p>Your birth chart is a map of the sky at the moment you were born. Download the Sun Signs app to find out how the planets’ positions influence your life.</p>
+        <ul id="app-download">
+          <li><i class="fa fa-apple" style="font-size:20px;"></i>Download FOR iOS</li>
+          <li><i class="fa fa-android" style="font-size:20px;"></i>Download FOR Android</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="container">
+    <div class="container" id="logo"><img src="photos/logo.png"></div>
+    <h3>your daily horoscope delivered</h3>
+    <p id="subscribe">subscribe</p>
+
+    <ul id="footer-menu">
+      <li>Daily Horoscope</li>
+      <li>Love Horoscope</li>
+      <li>Career Horoscope</li>
+      <li>Chinese Horoscope</li>
+      <li>Weekly Horoscope</li>
+      <li>Monthly Horoscope</li>
+      <li>Yearly Horoscope</li>
+      <li>Birth Chart</li>
+      <li>Daily Tarot</li>
+      <li>Zodiac Signs</li>
+      <li>Email Signup</li>
+      <li>Terms Of Service</li>
+      <li>Advertise</li>
+      <li>Privacy</li>
+      <li>Contact Us</li>
+    </ul>
+    <h3>Download Our App</h3>
+    <ul id="app-download">
+      <li><i class="fa fa-apple" style="font-size:20px;"></i>Download FOR iOS</li>
+      <li><i class="fa fa-android" style="font-size:20px;"></i>Download FOR Android</li>
+    </ul>
+  </div>
+</footer>
+
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="assets/dist/js/bootstrap.bundle.min.js">
+      
+      </script>
+</html>
